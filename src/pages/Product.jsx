@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useState } from "react";
-import Banner from "../components/Banner/Banner";
 import { Container } from "react-bootstrap";
 import ShopList from "../components/ShopList";
 import { products } from "../utils/products";
@@ -32,7 +31,6 @@ const Product = () => {
 
   return (
     <Fragment>
-      <Banner title={selectedProduct?.productName} />
       <ProductDetails selectedProduct={selectedProduct} />
       <ProductReviews selectedProduct={selectedProduct} />
       <section className="related-products">

@@ -21,4 +21,5 @@ const ShopList = ({ productItems }) => {
     </Row>
   );
 };
+
 export default memo(ShopList);
